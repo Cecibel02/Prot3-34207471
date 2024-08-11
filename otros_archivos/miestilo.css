@@ -1,0 +1,100 @@
+body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .destacado {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .seccion-destacada {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    background-color: #599ba7;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #4cacaf;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 3px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+    }
+    /* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos  para la barra de navegación */
+.navbar {
+    background-color: #000000 !important; /* Fondo negro */
+    padding: 0.5rem 1rem; /* Ajuste de los márgenes */
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem; /* Tamaño de fuente para el nombre de la empresa */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  .nav-link {
+    font-size: 1rem; /* Tamaño de fuente para los enlaces de navegación */
+    padding: 0.5rem 1rem; /* Ajuste del espacio entre los enlaces */
+    transition: color 0.3s ease; /* Efecto de transición para el color */
+  }
+  
+  .nav-link:hover {
+    color: #ffa500 !important; /* Color naranja para los enlaces al pasar el cursor */
+  }
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-logo img {
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  .navbar-whatsapp img {
+    height: 30px;
+    margin-left: 20px;
+  }
+  footer {
+    padding: 40px 0;
+    width: 100%;
+  }
+  
+  .copyright {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+  }
